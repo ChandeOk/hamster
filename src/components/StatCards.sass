@@ -1,0 +1,38 @@
+.stat-cards
+  font-family: Roboto
+  margin-top: 8%
+  width: 100%
+  justify-content: space-between
+  display: grid
+  grid-auto-flow: column
+  grid-auto-columns: 1fr
+  gap: 9px
+    
+
+.stat-card
+  display: flex
+  flex-direction: column
+  border-radius: 10px
+  padding: 8px 0
+  background: rgb(50, 54, 60)
+  align-items: center
+  justify-content: center
+  gap: 7px
+  &:first-child
+    color: rgb(247, 152, 65)
+  &:nth-child(2)
+    color: rgb(111, 114, 226)
+  &:last-child
+    color: rgb(132, 203, 105)
+  h3
+    font-size: 11px
+  p
+    font-size: 11px
+    color: white
+
+
+.stat-card__info
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 3px

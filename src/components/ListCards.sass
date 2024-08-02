@@ -1,0 +1,77 @@
+.list-card
+  flex: 1
+  border-radius: 15px
+  background-color: rgb(50, 54, 60)
+  font-family: Roboto
+  color: white
+  max-height: 108px
+  &:last-child
+    margin-bottom: 120px
+
+  &__top
+    width: 100%
+    height: 65%
+    display: flex
+    gap: 14px
+    align-items: flex-start
+    justify-content: flex-start
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.2)
+    padding: 17px 14px 5% 14px
+
+    img
+      width: 32px
+      max-height: 32px
+      object-fit: contain
+
+    div
+      display: flex
+      flex-direction: column
+
+      h3
+        font-size: 9px
+        font-weight: 400
+        margin-bottom: 10px
+
+      p
+        font-size: 7px
+        font-weight: 500
+        color: gray
+        margin-bottom: 4px
+
+      div
+        display: flex
+        gap: 2px
+        flex-direction: row
+        align-items: center
+        
+        img
+          width: auto
+          height: 11px
+          object-fit: contain
+        
+        p
+          font-size: 8px
+          font-weight: 500
+          color: white
+          margin-bottom: 0
+
+  &__bottom
+    padding: 0px 14px
+    display: flex
+    font-weight: 500
+    align-items: center
+    height: 40px
+    
+
+    &-level
+      font-size: 9px
+      width: 32px
+    &-sum
+      font-size: 11px
+    span
+      height: 75%
+      border-left: 0.3px solid rgba(255, 255, 255, 0.2)
+      margin-right: 11px
+    img
+      margin-right: 5px
+

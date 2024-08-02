@@ -1,0 +1,44 @@
+.info-area
+  height: 14%
+  width: 100%
+  display: flex
+  flex-direction: column
+  color: rgb(255, 255, 255)
+  font-family: Proxima Nova
+  align-items: center
+  justify-content: space-between
+  
+  h1
+    font-size: 16px
+    font-weight: 600
+    margin-top: 3%
+
+  .icons-container
+    display: flex
+    justify-content: space-between
+    width: 100%
+    padding: 15px 0
+
+    .info-icon
+      height: 35px
+      display: flex
+      gap: 8px
+      font-size: 12px
+      align-items: center
+      position: relative
+      width: 90px
+      justify-content: space-evenly
+
+      .icon-filter
+        width: 35px
+        height: 35px
+        background: linear-gradient(180.00deg, rgba(255, 255, 255, 0.06),rgba(78, 73, 73, 0.2) 100%)
+        // background: linear-gradient(180.00deg, rgba(194, 187, 187, 0.545),rgba(78, 73, 73, 0.2) 100%)
+        display: flex
+        border-radius: 10px
+        position: absolute
+        left: 0
+        &_active
+          width: 100%
+      img
+        max-height: 19px
